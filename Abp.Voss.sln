@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AFAA0841-BD93-466F-B8F4-FB4EEC86F1FC}"
 EndProject
@@ -21,7 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abp.Voss.Web.Core", "src\Ab
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abp.Voss.Web.Mvc", "src\Abp.Voss.Web.Mvc\Abp.Voss.Web.Mvc.csproj", "{A2213374-BB48-48FD-BBD4-81E6A961D866}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.Voss.EntityFrameworkCore", "src\Abp.Voss.EntityFrameworkCore\Abp.Voss.EntityFrameworkCore.csproj", "{E0580562-F8F2-4EBB-B07A-ABFC6F2C314F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abp.Voss.EntityFrameworkCore", "src\Abp.Voss.EntityFrameworkCore\Abp.Voss.EntityFrameworkCore.csproj", "{E0580562-F8F2-4EBB-B07A-ABFC6F2C314F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "database", "database", "{CD645DB1-C79F-40DA-8271-5DC2A2679F4E}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Voss.database", "Voss.database\Voss.database.sqlproj", "{1E0590FB-1F3F-4C79-B217-E66344FDE0A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +65,12 @@ Global
 		{E0580562-F8F2-4EBB-B07A-ABFC6F2C314F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0580562-F8F2-4EBB-B07A-ABFC6F2C314F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0580562-F8F2-4EBB-B07A-ABFC6F2C314F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E0590FB-1F3F-4C79-B217-E66344FDE0A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E0590FB-1F3F-4C79-B217-E66344FDE0A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E0590FB-1F3F-4C79-B217-E66344FDE0A2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1E0590FB-1F3F-4C79-B217-E66344FDE0A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E0590FB-1F3F-4C79-B217-E66344FDE0A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E0590FB-1F3F-4C79-B217-E66344FDE0A2}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,5 +84,9 @@ Global
 		{22CFE0D2-8DCA-42D7-AD7D-784C3862493F} = {AFAA0841-BD93-466F-B8F4-FB4EEC86F1FC}
 		{A2213374-BB48-48FD-BBD4-81E6A961D866} = {AFAA0841-BD93-466F-B8F4-FB4EEC86F1FC}
 		{E0580562-F8F2-4EBB-B07A-ABFC6F2C314F} = {AFAA0841-BD93-466F-B8F4-FB4EEC86F1FC}
+		{1E0590FB-1F3F-4C79-B217-E66344FDE0A2} = {CD645DB1-C79F-40DA-8271-5DC2A2679F4E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E901B647-4674-4AC7-A573-FD2686328741}
 	EndGlobalSection
 EndGlobal
