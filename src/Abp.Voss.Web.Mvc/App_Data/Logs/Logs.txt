@@ -3204,3 +3204,1095 @@ INFO  2017-11-13 16:32:18,391 [20   ] soft.AspNetCore.Hosting.Internal.WebHost -
 INFO  2017-11-13 16:32:18,401 [10   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
 INFO  2017-11-13 16:32:18,425 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 102.9702ms
 INFO  2017-11-13 16:32:18,436 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 213.9953ms 200 application/x-javascript; charset=utf-8
+DEBUG 2017-11-13 21:28:29,830 [2    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-11-13 21:28:30,015 [2    ] Abp.Modules.AbpModuleManager             - Found 14 ABP modules in total.
+DEBUG 2017-11-13 21:28:30,044 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Voss.Web.Startup.VossWebMvcModule, Abp.Voss.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-13 21:28:30,048 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Voss.VossWebCoreModule, Abp.Voss.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-13 21:28:30,049 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Voss.VossApplicationModule, Abp.Voss.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-13 21:28:30,049 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Voss.VossCoreModule, Abp.Voss.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-13 21:28:30,050 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-13 21:28:30,050 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-13 21:28:30,050 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-13 21:28:30,051 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-13 21:28:30,051 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Voss.EntityFrameworkCore.VossEntityFrameworkModule, Abp.Voss.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-13 21:28:30,052 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-13 21:28:30,052 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-13 21:28:30,053 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-13 21:28:30,053 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-13 21:28:30,054 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-13 21:28:30,058 [2    ] Abp.Modules.AbpModuleManager             - 14 modules loaded.
+DEBUG 2017-11-13 21:28:30,166 [2    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-13 21:28:30,166 [2    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-13 21:28:30,166 [2    ] o.Configuration.LanguageManagementConfig - Converted Voss (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-13 21:28:30,166 [2    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-13 21:28:30,541 [2    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Abp.Voss.EntityFrameworkCore.VossDbContext, Abp.Voss.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-13 21:28:31,826 [2    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-11-13 21:28:31,844 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-11-13 21:28:31,851 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-11-13 21:28:31,855 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: Voss
+DEBUG 2017-11-13 21:28:31,856 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-11-13 21:28:32,103 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-13 21:28:32,164 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2017-11-13 21:28:32,164 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Abp.Voss.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2017-11-13 21:28:32,167 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Abp.Voss.Users.Dto.CreateUserDto
+DEBUG 2017-11-13 21:28:32,168 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Abp.Voss.Users.Dto.UserDto
+DEBUG 2017-11-13 21:28:32,168 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Abp.Voss.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-11-13 21:28:32,168 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Abp.Voss.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-11-13 21:28:32,168 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Abp.Voss.Roles.Dto.CreateRoleDto
+DEBUG 2017-11-13 21:28:32,168 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Abp.Voss.Roles.Dto.PermissionDto
+DEBUG 2017-11-13 21:28:32,168 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Abp.Voss.Roles.Dto.RoleDto
+DEBUG 2017-11-13 21:28:32,169 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Abp.Voss.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-11-13 21:28:32,169 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Abp.Voss.MultiTenancy.Dto.TenantDto
+DEBUG 2017-11-13 21:28:32,169 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Abp.Voss.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+INFO  2017-11-13 21:28:34,880 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+WARN  2017-11-13 21:28:39,448 [10   ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.<OnAuthorizationAsync>d__8.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.<OnAuthorizationAsync>d__8.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+INFO  2017-11-13 21:28:39,465 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2017-11-13 21:28:39,473 [10   ] Microsoft.AspNetCore.Mvc.ChallengeResult - Executing ChallengeResult with authentication schemes ().
+INFO  2017-11-13 21:28:39,485 [10   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2017-11-13 21:28:39,496 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.HomeController.Index (Abp.Voss.Web.Mvc) in 454.4256ms
+INFO  2017-11-13 21:28:39,535 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4667.8885ms 302 
+INFO  2017-11-13 21:28:39,554 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2017-11-13 21:28:42,534 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.AccountController.Login (Abp.Voss.Web.Mvc) with arguments (, /, ) - ModelState is Valid
+INFO  2017-11-13 21:28:46,101 [10   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Account/Login.cshtml.
+INFO  2017-11-13 21:28:47,978 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.AccountController.Login (Abp.Voss.Web.Mvc) in 8386.4987ms
+INFO  2017-11-13 21:28:48,041 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8440.3624ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:28:48,109 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.css?v=W8a9WvLyUO7CXtOC4f9LoUMwkywM7JSq-Xm5kNsYW08  
+INFO  2017-11-13 21:28:48,252 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/roboto.css?v=DWPiEyLnt8XZ68WQeudmZPGSejowhmQNUUhaX8dYF1Q  
+INFO  2017-11-13 21:28:48,286 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/sweetalert/dist/sweetalert.css?v=k66BSDvi6XBdtM2RH6QQvCz2wk81XcWsiZ3kn6uFTmM  
+INFO  2017-11-13 21:28:48,294 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css?v=l7wu43l7XpKWzFn29hiH8AFe4I_CNzbCPmaAQivPYMg  
+INFO  2017-11-13 21:28:48,304 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/css/bootstrap.css?v=rYUBh-J0b_zGCzbG02wJhid-ncHyd0BsoUYpjLLSowk  
+INFO  2017-11-13 21:28:48,364 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/sweetalert/dist/sweetalert.css was not modified
+INFO  2017-11-13 21:28:48,392 [17   ] NetCore.StaticFiles.StaticFileMiddleware - The file /fonts/roboto/roboto.css was not modified
+INFO  2017-11-13 21:28:48,406 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/bootstrap/dist/css/bootstrap.css was not modified
+INFO  2017-11-13 21:28:48,428 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/toastr/toastr.css was not modified
+INFO  2017-11-13 21:28:48,501 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/famfamfam-flags/dist/sprite/famfamfam-flags.css was not modified
+INFO  2017-11-13 21:28:48,540 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 321.4487ms 304 text/css
+INFO  2017-11-13 21:28:48,576 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 319.6576ms 304 text/css
+INFO  2017-11-13 21:28:48,598 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 333.2856ms 304 text/css
+INFO  2017-11-13 21:28:48,656 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 383.2528ms 304 text/css
+INFO  2017-11-13 21:28:48,693 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 416.5472ms 304 text/css
+INFO  2017-11-13 21:28:48,777 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/animate.css/animate.css?v=00w68NO3TLuHjKRHJmjrrgJBDtG_6OhbJEu1gtHcsuo  
+INFO  2017-11-13 21:28:48,804 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Waves/dist/waves.css?v=0zP86LzXedNkkBjePtKrMTAPuIy6EzHfGlyYvsmGLBw  
+INFO  2017-11-13 21:28:48,879 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/css/font-awesome.css?v=NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w  
+INFO  2017-11-13 21:28:48,912 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/materialize.css?v=OdWlipUYj8b9Oa4RyT45njteIcxH-4pGocqe0r0V8js  
+INFO  2017-11-13 21:28:48,922 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/animate.css/animate.css was not modified
+INFO  2017-11-13 21:28:48,939 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/style.css?v=yL1_ikVC9k-ZNukgUJ_Jk9cK0TBzvJLMIohPbHrAf0g  
+INFO  2017-11-13 21:28:48,962 [17   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/Waves/dist/waves.css was not modified
+INFO  2017-11-13 21:28:49,004 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/font-awesome/css/font-awesome.css was not modified
+INFO  2017-11-13 21:28:49,038 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/style.css was not modified
+INFO  2017-11-13 21:28:49,052 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 285.8639ms 304 text/css
+INFO  2017-11-13 21:28:49,071 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/materialize.css was not modified
+INFO  2017-11-13 21:28:49,103 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 336.7653ms 304 text/css
+INFO  2017-11-13 21:28:49,117 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 352.6135ms 304 text/css
+INFO  2017-11-13 21:28:49,158 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 325.4043ms 304 text/css
+INFO  2017-11-13 21:28:49,200 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 250.0051ms 304 text/css
+INFO  2017-11-13 21:28:49,210 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/_Layout.css?v=vIEtxnpR3ZrYbYcueRr_mJ9XuJJzDprh4sMCwvRBcqk  
+INFO  2017-11-13 21:28:49,249 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.css?v=Hq5aBVr9vqsOYI_zoZha7PxZnLUdiilICi-gjP3RrfU  
+INFO  2017-11-13 21:28:49,312 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery/dist/jquery.js?v=oYqpLeqZe9cetUDV-TFiBZHp3uJ-X4F5eLs4W6uSTSE  
+INFO  2017-11-13 21:28:49,335 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/json2/json2.js?v=EZJ68U7eUi8uSP0MRRUalYten2eOlhREE9kJOIbIeYg  
+INFO  2017-11-13 21:28:49,343 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Account/_Layout.css was not modified
+INFO  2017-11-13 21:28:49,393 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:28:49,419 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 204.5748ms 304 text/css
+INFO  2017-11-13 21:28:49,426 [17   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Account/Login.css was not modified
+INFO  2017-11-13 21:28:49,450 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery/dist/jquery.js was not modified
+INFO  2017-11-13 21:28:49,490 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/json2/json2.js was not modified
+INFO  2017-11-13 21:28:49,547 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 230.5208ms 304 application/javascript
+INFO  2017-11-13 21:28:49,569 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 305.9644ms 304 text/css
+INFO  2017-11-13 21:28:49,591 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 316.5163ms 304 application/javascript
+INFO  2017-11-13 21:28:49,596 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/js/bootstrap.js?v=3vw5dArBhZ2OJ4XtRzIIQJYn6Hrd1fePLeqsuToS1R0  
+INFO  2017-11-13 21:28:49,643 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:28:49,659 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/bootstrap/dist/js/bootstrap.js was not modified
+INFO  2017-11-13 21:28:49,724 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 152.0021ms 304 application/javascript
+INFO  2017-11-13 21:28:49,734 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-validation/dist/jquery.validate.js?v=KuzD50lDGNI5jq_ipt4hwDpSJk3fhseTR1jdvaBoZLs  
+INFO  2017-11-13 21:28:49,755 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/blockUI/jquery.blockUI.js?v=oQaw-JJuUcJQ9QVYMcFnPxICDT-hv8-kuxT2FNzTGhc  
+INFO  2017-11-13 21:28:49,766 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/moment/min/moment-with-locales.js?v=7CN4bWPV0U57HDA4YjdCBKCAynhqdWErjNn-5rrsW_I  
+INFO  2017-11-13 21:28:49,823 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery-validation/dist/jquery.validate.js was not modified
+INFO  2017-11-13 21:28:49,909 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/blockUI/jquery.blockUI.js was not modified
+INFO  2017-11-13 21:28:49,943 [17   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/moment/min/moment-with-locales.js was not modified
+INFO  2017-11-13 21:28:49,965 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 210.5451ms 304 application/javascript
+INFO  2017-11-13 21:28:49,975 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.js?v=C7DJ6LzTt1Hvj9fd-yRnySs3I4T2B8XmQ3TqXQjc00g  
+INFO  2017-11-13 21:28:49,984 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 285.6342ms 304 application/javascript
+INFO  2017-11-13 21:28:50,021 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 311.8161ms 304 application/javascript
+INFO  2017-11-13 21:28:50,095 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/toastr/toastr.js was not modified
+INFO  2017-11-13 21:28:50,139 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/jquery.spin.js?v=EG38bUU5b2M64hy9cNAzu_cQBEsiBYsDifOcoHqNd2k  
+INFO  2017-11-13 21:28:50,165 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/sweetalert/dist/sweetalert-dev.js?v=Y6AEuvugryve80FgzPE3e2EONgfiYPcaSaqF-vIFGIA  
+INFO  2017-11-13 21:28:50,180 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/spin.js?v=GySbz3oZXNlwoawo5PpYy0iM38B-q3jyi_HLw00uxy0  
+INFO  2017-11-13 21:28:50,238 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 317.7458ms 304 application/javascript
+INFO  2017-11-13 21:28:50,276 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/spin.js/spin.js was not modified
+INFO  2017-11-13 21:28:50,301 [17   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/spin.js/jquery.spin.js was not modified
+INFO  2017-11-13 21:28:50,316 [6    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:28:50,344 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/sweetalert/dist/sweetalert-dev.js was not modified
+INFO  2017-11-13 21:28:50,413 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 887.368ms
+INFO  2017-11-13 21:28:50,429 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 185.4031ms 304 application/javascript
+INFO  2017-11-13 21:28:50,442 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 287.5738ms 304 application/javascript
+INFO  2017-11-13 21:28:50,447 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Waves/dist/waves.js?v=Lar7zQhqgdoUsaqhuwkgnWgsC-eRWIxHhJPV-QtrDog  
+INFO  2017-11-13 21:28:50,466 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 231.0554ms 304 application/javascript
+INFO  2017-11-13 21:28:50,574 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/Waves/dist/waves.js was not modified
+INFO  2017-11-13 21:28:50,594 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1120.3852ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:28:50,622 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/abp.js?v=8Fv5Ryar8BgkV6_q_U-zsW2dA57HxErdoXVKogeTUy4  
+INFO  2017-11-13 21:28:50,641 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js?v=ImopdkB8alCil1HigOwW3CDqWKsLZXyplf7TXBbjRnE  
+INFO  2017-11-13 21:28:50,655 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js?v=PCUhVDVZp55Lu8KbdjXlvgXrD5vWl9TLhmEbULarsqU  
+INFO  2017-11-13 21:28:50,701 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 249.8738ms 304 application/javascript
+INFO  2017-11-13 21:28:50,803 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/abp.js was not modified
+INFO  2017-11-13 21:28:50,851 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js?v=Y3zoG-hSFKmbS3BHKo_wFWRPbyzJXKoNrnF73uFdtqU  
+INFO  2017-11-13 21:28:50,866 [17   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js was not modified
+INFO  2017-11-13 21:28:50,901 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js was not modified
+INFO  2017-11-13 21:28:50,992 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js?v=RJuGDX616JN_UziXsmKnth0alpECKCx0gtxKZVrZWxY  
+INFO  2017-11-13 21:28:51,016 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 376.5042ms 304 application/javascript
+INFO  2017-11-13 21:28:51,029 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 382.2821ms 304 application/javascript
+INFO  2017-11-13 21:28:51,049 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 324.7372ms 304 application/javascript
+INFO  2017-11-13 21:28:51,087 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js was not modified
+INFO  2017-11-13 21:28:51,145 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js was not modified
+INFO  2017-11-13 21:28:51,172 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js?v=pHFl_MDwwZLcdWvFBdIWQRNd1TYnlLqWz81WI3l1bNA  
+INFO  2017-11-13 21:28:51,277 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/admin.js?v=tVnerWKWo6Bi-SXoAqQMoiI16S5Ta0AzFUZerddubZE  
+INFO  2017-11-13 21:28:51,322 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/main.js?v=tFbVGWB6JHWbxNmthTDZHKrLBkZ9mpf7qDOYcSymhrg  
+INFO  2017-11-13 21:28:51,335 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js was not modified
+INFO  2017-11-13 21:28:51,403 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 487.4895ms 304 application/javascript
+INFO  2017-11-13 21:28:51,436 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 318.6336ms 304 application/javascript
+INFO  2017-11-13 21:28:51,539 [17   ] NetCore.StaticFiles.StaticFileMiddleware - The file /js/admin.js was not modified
+INFO  2017-11-13 21:28:51,553 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /js/main.js was not modified
+INFO  2017-11-13 21:28:51,572 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 273.6382ms 304 application/javascript
+INFO  2017-11-13 21:28:51,601 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 467.4333ms 304 application/javascript
+INFO  2017-11-13 21:28:51,636 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=636462053279616062  
+INFO  2017-11-13 21:28:51,646 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:28:51,672 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 446.6515ms 304 application/javascript
+INFO  2017-11-13 21:28:51,737 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.js?v=o2PUQBkwW7VjtzD5RNxKPa3oShr3fMFHds_2dwIAV5M  
+INFO  2017-11-13 21:28:51,738 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'C:\Projects\VOSS\src\aspnet-core\src\Abp.Voss.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2017-11-13 21:28:51,763 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:28:51,768 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/material-icons/materialicons.css?v=2SsVsQpWRHM3EJ4D4MT4RRpiEXbEuK0vEjPxVr5P7Ek  
+INFO  2017-11-13 21:28:51,840 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Account/Login.js was not modified
+INFO  2017-11-13 21:28:51,902 [17   ] NetCore.StaticFiles.StaticFileMiddleware - The file /fonts/material-icons/materialicons.css was not modified
+INFO  2017-11-13 21:28:52,241 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 236.4596ms 304 text/css
+INFO  2017-11-13 21:28:52,332 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 340.2343ms 200 application/javascript
+INFO  2017-11-13 21:28:52,382 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2  
+INFO  2017-11-13 21:28:52,415 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 217.6899ms 304 application/javascript
+INFO  2017-11-13 21:28:52,510 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+INFO  2017-11-13 21:28:52,519 [6    ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:28:52,525 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/CWB0XYA8bzo0kSThX0UTuA.woff2  
+INFO  2017-11-13 21:28:52,558 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/material-icons/materialicons.woff2  
+INFO  2017-11-13 21:28:52,578 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /fonts/roboto/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2 was not modified
+INFO  2017-11-13 21:28:52,680 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /fonts/roboto/CWB0XYA8bzo0kSThX0UTuA.woff2 was not modified
+INFO  2017-11-13 21:28:52,706 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/famfamfam-flags/dist/sprite/famfamfam-flags.png was not modified
+INFO  2017-11-13 21:28:52,727 [17   ] NetCore.StaticFiles.StaticFileMiddleware - The file /fonts/material-icons/materialicons.woff2 was not modified
+INFO  2017-11-13 21:28:52,739 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 857.2493ms
+INFO  2017-11-13 21:28:52,766 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 644.4589ms 304 font/woff2
+INFO  2017-11-13 21:28:52,794 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 286.5695ms 304 font/woff2
+INFO  2017-11-13 21:28:52,882 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1230.4704ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:28:52,888 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 334.6824ms 304 font/woff2
+INFO  2017-11-13 21:28:52,895 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 262.4758ms 304 image/png
+INFO  2017-11-13 21:29:21,385 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 256
+INFO  2017-11-13 21:29:21,439 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.AccountController.Login (Abp.Voss.Web.Mvc) with arguments (Abp.Voss.Web.Models.Account.LoginViewModel, /, ) - ModelState is Valid
+INFO  2017-11-13 21:29:22,045 [19   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2017-11-13 21:29:22,352 [11   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2017-11-13 21:29:22,389 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.AccountController.Login (Abp.Voss.Web.Mvc) in 969.4411ms
+INFO  2017-11-13 21:29:22,446 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1024.0593ms 200 application/json; charset=utf-8
+INFO  2017-11-13 21:29:22,470 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2017-11-13 21:29:22,502 [5    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:29:22,523 [5    ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:29:22,550 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.HomeController.Index (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:29:22,700 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 256
+INFO  2017-11-13 21:29:22,732 [17   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:29:22,767 [17   ] idateAntiforgeryTokenAuthorizationFilter - Antiforgery token validation failed. The provided antiforgery token was meant for a different claims-based user than the current user.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The provided antiforgery token was meant for a different claims-based user than the current user.
+   at Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgery.ValidateTokens(HttpContext httpContext, AntiforgeryTokenSet antiforgeryTokenSet)
+   at Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgery.<ValidateRequestAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ValidateAntiforgeryTokenAuthorizationFilter.<OnAuthorizationAsync>d__3.MoveNext()
+INFO  2017-11-13 21:29:22,776 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2017-11-13 21:29:22,785 [17   ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2017-11-13 21:29:22,841 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.AccountController.Login (Abp.Voss.Web.Mvc) in 51.1864ms
+INFO  2017-11-13 21:29:22,997 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 215.4176ms 400 
+INFO  2017-11-13 21:29:23,133 [21   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Home/Index.cshtml.
+INFO  2017-11-13 21:29:25,135 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.HomeController.Index (Abp.Voss.Web.Mvc) in 2531.4392ms
+INFO  2017-11-13 21:29:25,304 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/themes/all-themes.css?v=XaAlkmhL9gA6mBxpcxGYAWxggxkIpRmT9qGbKejs6eA  
+INFO  2017-11-13 21:29:25,313 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap-select/dist/css/bootstrap-select.css?v=a7N4Jki3LzSbThclvqbu4nF45twcjuc772JGFhY9qwk  
+INFO  2017-11-13 21:29:25,324 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/morris.js/morris.css?v=szHusaozbQctTn4FX-3l5E0A5zoxz7-ne4fr8NgWJlw  
+INFO  2017-11-13 21:29:25,347 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2732.2816ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:29:25,420 [25   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/themes/all-themes.css was not modified
+INFO  2017-11-13 21:29:25,448 [24   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/bootstrap-select/dist/css/bootstrap-select.css was not modified
+INFO  2017-11-13 21:29:25,469 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/_Layout.css?v=uq7unI_U0xZr0Pbyzeu6KfbJKHVFuv0wNJ4CrrhQknw  
+INFO  2017-11-13 21:29:25,511 [19   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/morris.js/morris.css was not modified
+INFO  2017-11-13 21:29:25,668 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 321.8942ms 304 text/css
+INFO  2017-11-13 21:29:25,682 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 357.6033ms 304 text/css
+INFO  2017-11-13 21:29:25,707 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 428.3422ms 304 text/css
+INFO  2017-11-13 21:29:25,730 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap-select/dist/js/bootstrap-select.js?v=_KDPX2Vvqq8sySMxlLNJxt9j6Cmb8i_xp602ozhYxzI  
+INFO  2017-11-13 21:29:25,754 [26   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Shared/_Layout.css was not modified
+INFO  2017-11-13 21:29:26,165 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:29:26,182 [18   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/bootstrap-select/dist/js/bootstrap-select.js was not modified
+INFO  2017-11-13 21:29:26,351 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 664.4645ms 304 application/javascript
+INFO  2017-11-13 21:29:26,362 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-slimscroll/jquery.slimscroll.js?v=4K6ZHzwMYR5_eU2SeDIaByus_qki9IFY8hmxl5U6D1Y  
+INFO  2017-11-13 21:29:26,389 [24   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:29:26,419 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/admin.js  
+INFO  2017-11-13 21:29:26,430 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 622.738ms 304 text/css
+INFO  2017-11-13 21:29:26,529 [27   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery-slimscroll/jquery.slimscroll.js was not modified
+INFO  2017-11-13 21:29:26,590 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:29:26,666 [25   ] NetCore.StaticFiles.StaticFileMiddleware - The file /js/admin.js was not modified
+INFO  2017-11-13 21:29:26,686 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0  
+INFO  2017-11-13 21:29:26,725 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 725.9966ms 304 application/javascript
+INFO  2017-11-13 21:29:26,795 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/_Layout.js?v=jOYc7_5N1zFKt3qTihQ-9Kc0wjSMXkAeHUXNyvn8sYo  
+INFO  2017-11-13 21:29:26,873 [24   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:29:26,910 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/push.js/push.js?v=HDxbpm8oBKwe1bmX9Z1SahYYA7zEbc1dk7LfopvOvoE  
+INFO  2017-11-13 21:29:26,936 [18   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/font-awesome/fonts/fontawesome-webfont.woff2 was not modified
+INFO  2017-11-13 21:29:26,964 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 768.0617ms 304 application/javascript
+INFO  2017-11-13 21:29:27,004 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/images/user-img-background.jpg  
+INFO  2017-11-13 21:29:27,096 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 485.101ms
+INFO  2017-11-13 21:29:27,109 [19   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Shared/_Layout.js was not modified
+INFO  2017-11-13 21:29:27,120 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 513.9172ms 304 font/woff2
+INFO  2017-11-13 21:29:27,142 [26   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/push.js/push.js was not modified
+INFO  2017-11-13 21:29:27,161 [27   ] NetCore.StaticFiles.StaticFileMiddleware - The file /images/user-img-background.jpg was not modified
+INFO  2017-11-13 21:29:27,287 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1293.2488ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:29:27,312 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/images/user.png  
+INFO  2017-11-13 21:29:27,381 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 349.1231ms 304 image/jpeg
+INFO  2017-11-13 21:29:27,423 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:29:27,428 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 625.0415ms 304 application/javascript
+INFO  2017-11-13 21:29:27,558 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-countTo/jquery.countTo.js?v=AGGYFLOyVnIKn_2UCDl9D_5VWf8wHWCOtm9YU0P9g6I  
+INFO  2017-11-13 21:29:27,568 [18   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:29:27,585 [25   ] NetCore.StaticFiles.StaticFileMiddleware - The file /images/user.png was not modified
+INFO  2017-11-13 21:29:27,600 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 631.941ms 304 application/javascript
+INFO  2017-11-13 21:29:27,628 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/chart.js/dist/Chart.bundle.js?v=TQAtDUIU_0XtXZLNjMBV8noK8jNSngwHlgtC_PvsRAk  
+INFO  2017-11-13 21:29:27,764 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:29:27,788 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/morris.js/morris.js?v=cQB75DEaDbn4oSiaWgdoh3TuZCHSO-kYdD_Ehka48Ro  
+INFO  2017-11-13 21:29:27,805 [24   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery-countTo/jquery.countTo.js was not modified
+INFO  2017-11-13 21:29:27,844 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 524.735ms 304 image/png
+INFO  2017-11-13 21:29:27,897 [27   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/chart.js/dist/Chart.bundle.js was not modified
+INFO  2017-11-13 21:29:27,960 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 401.309ms 304 application/javascript
+INFO  2017-11-13 21:29:28,057 [18   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:29:28,152 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 418.6698ms 304 application/javascript
+INFO  2017-11-13 21:29:28,180 [26   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/morris.js/morris.js was not modified
+INFO  2017-11-13 21:29:28,208 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.js?v=t7kx8nPDixJ3ucbB9OBcTsCYhaSHvdrzJ54tfkmjjhI  
+INFO  2017-11-13 21:29:28,220 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/raphael/raphael.js?v=MPXjTSEImVJI1834JAHubdK7Lts1VTUPJmCQ9zKAjyA  
+INFO  2017-11-13 21:29:28,262 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 488.15ms
+INFO  2017-11-13 21:29:28,345 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.resize.js?v=i59RRvMkqw-28mDu6YRzKo77gmM7k9aPZMtcw45wgu4  
+INFO  2017-11-13 21:29:28,392 [25   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/Flot/jquery.flot.js was not modified
+INFO  2017-11-13 21:29:28,496 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 640.228ms 304 application/javascript
+INFO  2017-11-13 21:29:28,522 [24   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/Flot/jquery.flot.resize.js was not modified
+INFO  2017-11-13 21:29:28,550 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1017.9285ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:29:28,557 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.pie.js?v=RsEWYd9gdLG1bCIcU8j59Rkvf_1O7HtzoD1TRUs22cU  
+INFO  2017-11-13 21:29:28,638 [19   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/raphael/raphael.js was not modified
+INFO  2017-11-13 21:29:28,691 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 382.7666ms 304 application/javascript
+INFO  2017-11-13 21:29:28,702 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 442.1539ms 304 application/javascript
+INFO  2017-11-13 21:29:28,736 [27   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/Flot/jquery.flot.pie.js was not modified
+INFO  2017-11-13 21:29:28,880 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 786.9519ms 304 application/javascript
+INFO  2017-11-13 21:29:28,947 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.categories.js?v=boFmSyjqeVxzSQb0qhVhRkCnWsf705mn-5CEBAaYNRo  
+INFO  2017-11-13 21:29:28,971 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.time.js?v=pYLIMq3HE4prBar2HxbrrCdHAfG-Sv6nfnOaHDS5xBo  
+INFO  2017-11-13 21:29:28,976 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 479.2657ms 304 application/javascript
+INFO  2017-11-13 21:29:28,995 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-sparkline/dist/jquery.sparkline.js?v=k0LZZpXY4vJp6vbA5CL5bb20Ou0IO3Shz-J6U6Vq56c  
+INFO  2017-11-13 21:29:29,025 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Home/Index.js?v=tRGDdqeVjO63iaO1qvGPpKF2NuT2riEOyYovlY_otk0  
+INFO  2017-11-13 21:29:29,092 [18   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/Flot/jquery.flot.categories.js was not modified
+INFO  2017-11-13 21:29:29,122 [26   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/Flot/jquery.flot.time.js was not modified
+INFO  2017-11-13 21:29:29,143 [25   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery-sparkline/dist/jquery.sparkline.js was not modified
+INFO  2017-11-13 21:29:29,204 [24   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Home/Index.js was not modified
+INFO  2017-11-13 21:29:29,317 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 461.5988ms 304 application/javascript
+INFO  2017-11-13 21:29:29,344 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 551.9035ms 304 application/javascript
+INFO  2017-11-13 21:29:29,347 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 397.1388ms 304 application/javascript
+INFO  2017-11-13 21:29:29,379 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 391.5069ms 304 application/javascript
+INFO  2017-11-13 21:29:32,892 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2017-11-13 21:29:32,925 [19   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:29:32,957 [19   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:29:32,966 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.HomeController.Index (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:29:32,984 [24   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Home/Index.cshtml.
+INFO  2017-11-13 21:29:33,069 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.HomeController.Index (Abp.Voss.Web.Mvc) in 90.6944ms
+INFO  2017-11-13 21:29:33,130 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 201.8598ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:29:33,234 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:29:33,236 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:29:33,252 [26   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:29:33,281 [24   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:29:33,285 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:29:33,361 [26   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:29:33,412 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 106.4782ms
+INFO  2017-11-13 21:29:33,419 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:29:33,427 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 344.3782ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:29:33,463 [24   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:29:33,474 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 177.9284ms
+INFO  2017-11-13 21:29:33,485 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 344.9969ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:29:35,576 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Tenants  
+INFO  2017-11-13 21:29:35,597 [27   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:29:35,622 [27   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:29:35,889 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.TenantsController.Index (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:29:36,323 [21   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Tenants/Index.cshtml.
+INFO  2017-11-13 21:29:36,506 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.TenantsController.Index (Abp.Voss.Web.Mvc) in 778.7863ms
+INFO  2017-11-13 21:29:36,650 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 957.0135ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:29:36,729 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Tenants/Index.js?v=EpfyPbkASJZJmcHBEqNyxaM45ZZAjeQPGRdseDkOuTQ  
+INFO  2017-11-13 21:29:36,753 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:29:36,767 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:29:36,846 [27   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:29:36,849 [26   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Tenants/Index.js was not modified
+INFO  2017-11-13 21:29:36,876 [20   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:29:36,903 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:29:36,932 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 333.4066ms 304 application/javascript
+INFO  2017-11-13 21:29:36,942 [27   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:29:36,960 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:29:36,967 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 94.9618ms
+INFO  2017-11-13 21:29:36,982 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 516.6752ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:29:37,025 [20   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:29:37,125 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 146.2184ms
+INFO  2017-11-13 21:29:37,135 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 611.0529ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:29:38,707 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Users  
+INFO  2017-11-13 21:29:38,727 [18   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:29:38,745 [18   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:29:39,018 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.UsersController.Index (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:29:39,679 [18   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Users/Index.cshtml.
+WARN  2017-11-13 21:29:39,711 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'Voss'!
+INFO  2017-11-13 21:29:39,785 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.UsersController.Index (Abp.Voss.Web.Mvc) in 1029.9184ms
+INFO  2017-11-13 21:29:39,867 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1107.5974ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:29:40,105 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Users/Index.js?v=TISCa1v85LEMN-54sxImJFRkCnjSAt_QY-sDi6gxXGk  
+INFO  2017-11-13 21:29:40,116 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:29:40,133 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:29:40,193 [24   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Users/Index.js was not modified
+INFO  2017-11-13 21:29:40,235 [18   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:29:40,296 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 296.1562ms 304 application/javascript
+INFO  2017-11-13 21:29:40,311 [19   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:29:40,317 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:29:40,328 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:29:40,361 [19   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:29:40,380 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 45.692ms
+INFO  2017-11-13 21:29:40,434 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 518.8266ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:29:40,460 [18   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:29:40,502 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 225.78ms
+INFO  2017-11-13 21:29:40,530 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 610.2541ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:29:42,417 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Roles  
+INFO  2017-11-13 21:29:42,438 [24   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:29:42,471 [24   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:29:42,793 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.RolesController.Index (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:29:43,255 [19   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Roles/Index.cshtml.
+INFO  2017-11-13 21:29:43,363 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.RolesController.Index (Abp.Voss.Web.Mvc) in 873.0955ms
+INFO  2017-11-13 21:29:43,390 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 965.1224ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:29:43,460 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:29:43,603 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:29:43,606 [5    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:29:43,608 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Roles/Index.js?v=OKM0jzzo9Tl4KLCW8AgedO-ukLR48o1BnH44BLzbkLc  
+INFO  2017-11-13 21:29:43,627 [24   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Roles/Index.js was not modified
+INFO  2017-11-13 21:29:43,699 [19   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:29:43,742 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:29:43,820 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 178.6722ms 304 application/javascript
+INFO  2017-11-13 21:29:43,845 [5    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:29:43,864 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 236.9289ms
+INFO  2017-11-13 21:29:43,892 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:29:43,896 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 456.6488ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:29:43,933 [19   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:29:43,963 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 228.1032ms
+INFO  2017-11-13 21:29:43,971 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 513.8741ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:29:45,431 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/About  
+INFO  2017-11-13 21:29:45,445 [18   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:29:45,474 [18   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:29:45,483 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.AboutController.Index (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:29:45,670 [5    ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/About/Index.cshtml.
+INFO  2017-11-13 21:29:45,727 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.AboutController.Index (Abp.Voss.Web.Mvc) in 268.7825ms
+INFO  2017-11-13 21:29:45,767 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 339.2235ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:29:45,810 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:29:45,863 [5    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:29:45,894 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:29:45,921 [25   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:29:45,950 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:29:45,984 [5    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:29:46,015 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:29:46,213 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 118.361ms
+INFO  2017-11-13 21:29:46,215 [25   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:29:46,359 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 436.0265ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:29:46,369 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 292.8656ms
+INFO  2017-11-13 21:29:46,378 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 544.7829ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:29:47,730 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2  
+INFO  2017-11-13 21:29:47,745 [21   ] NetCore.StaticFiles.StaticFileMiddleware - The file /fonts/roboto/mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2 was not modified
+INFO  2017-11-13 21:29:47,762 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 27.8434ms 304 font/woff2
+INFO  2017-11-13 21:30:04,021 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2017-11-13 21:30:04,061 [18   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:30:04,074 [18   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:30:04,087 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.HomeController.Index (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:30:04,110 [24   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Home/Index.cshtml.
+INFO  2017-11-13 21:30:04,156 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.HomeController.Index (Abp.Voss.Web.Mvc) in 81.5902ms
+INFO  2017-11-13 21:30:04,280 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 145.8931ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:30:04,455 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:30:04,464 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:30:04,483 [27   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:30:04,517 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:30:04,521 [24   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:30:04,596 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:30:04,619 [24   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:30:04,628 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 97.1878ms
+INFO  2017-11-13 21:30:04,642 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 403.5735ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:30:04,659 [27   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:30:04,703 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 175.7549ms
+INFO  2017-11-13 21:30:04,711 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 419.0702ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:30:10,881 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Users  
+INFO  2017-11-13 21:30:10,898 [21   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:30:10,908 [21   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:30:10,918 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.UsersController.Index (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:30:10,966 [24   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Users/Index.cshtml.
+WARN  2017-11-13 21:30:10,971 [24   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'Voss'!
+INFO  2017-11-13 21:30:11,121 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.UsersController.Index (Abp.Voss.Web.Mvc) in 123.3812ms
+INFO  2017-11-13 21:30:11,461 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 248.6484ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:30:11,678 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:30:11,736 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:30:11,756 [18   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:30:11,788 [21   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:30:11,798 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:30:11,806 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:30:11,828 [21   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:30:11,868 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 37.1318ms
+INFO  2017-11-13 21:30:11,886 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 267.9123ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:30:11,896 [18   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:30:11,921 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 138.8151ms
+INFO  2017-11-13 21:30:11,928 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 323.6201ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:30:15,334 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Roles  
+INFO  2017-11-13 21:30:15,349 [21   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:30:15,356 [21   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:30:15,366 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.RolesController.Index (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:30:15,409 [18   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Roles/Index.cshtml.
+INFO  2017-11-13 21:30:15,459 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.RolesController.Index (Abp.Voss.Web.Mvc) in 97.539ms
+INFO  2017-11-13 21:30:15,509 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 130.3021ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:30:15,669 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:30:15,709 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:30:15,716 [21   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:30:15,726 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:30:15,771 [27   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:30:15,776 [21   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:30:15,836 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 59.8311ms
+INFO  2017-11-13 21:30:15,851 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 298.7773ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:30:15,899 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:30:15,956 [27   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:30:15,986 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 179.1042ms
+INFO  2017-11-13 21:30:16,014 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 395.6451ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:30:17,998 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Users  
+INFO  2017-11-13 21:30:18,011 [24   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:30:18,021 [24   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:30:18,028 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.UsersController.Index (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:30:18,063 [24   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Users/Index.cshtml.
+WARN  2017-11-13 21:30:18,071 [24   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'Voss'!
+INFO  2017-11-13 21:30:18,116 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.UsersController.Index (Abp.Voss.Web.Mvc) in 88.3507ms
+INFO  2017-11-13 21:30:18,183 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 139.042ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:30:18,268 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:30:18,273 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:30:18,328 [27   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:30:18,331 [5    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:30:18,356 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:30:18,371 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:30:18,378 [27   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:30:18,388 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 49.8909ms
+INFO  2017-11-13 21:30:18,423 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 210.3461ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:30:18,433 [5    ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:30:18,461 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 102.674ms
+INFO  2017-11-13 21:30:18,471 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 250.8699ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:30:39,648 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Users/EditUserModal?userId=3 application/html 0
+INFO  2017-11-13 21:30:39,675 [18   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:30:39,705 [18   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:30:39,728 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.UsersController.EditUserModal (Abp.Voss.Web.Mvc) with arguments (3) - ModelState is Valid
+INFO  2017-11-13 21:30:40,055 [24   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Users/_EditUserModal.cshtml.
+INFO  2017-11-13 21:30:40,397 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.UsersController.EditUserModal (Abp.Voss.Web.Mvc) in 684.0284ms
+INFO  2017-11-13 21:30:40,417 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 764.2702ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:30:40,435 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Users/_EditUserModal.js?v=uXXXV8glIbcknsyhdvPJre5j0gCK_nkZWCawq_1Zs_4&_=1510626618243  
+INFO  2017-11-13 21:30:40,448 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Users/_EditUserModal.js'. Physical path: 'C:\Projects\VOSS\src\aspnet-core\src\Abp.Voss.Web.Mvc\wwwroot\view-resources\Views\Users\_EditUserModal.js'
+INFO  2017-11-13 21:30:40,620 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 37.7915ms 200 application/javascript
+INFO  2017-11-13 21:31:22,516 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Users  
+INFO  2017-11-13 21:31:22,541 [5    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:31:22,551 [5    ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:31:22,563 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.UsersController.Index (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:31:22,621 [31   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Users/Index.cshtml.
+WARN  2017-11-13 21:31:22,628 [31   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'Voss'!
+INFO  2017-11-13 21:31:22,668 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.UsersController.Index (Abp.Voss.Web.Mvc) in 117.3005ms
+INFO  2017-11-13 21:31:22,738 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 179.7105ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:31:22,881 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:31:22,888 [32   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:31:22,918 [24   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:31:22,948 [32   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:31:22,973 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:31:23,013 [32   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:31:23,028 [32   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:31:23,046 [32   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 80.0276ms
+INFO  2017-11-13 21:31:23,111 [32   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 322.1113ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:31:23,158 [24   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:31:23,173 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 237.6066ms
+INFO  2017-11-13 21:31:23,183 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 378.2379ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:31:25,724 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Users  
+INFO  2017-11-13 21:31:25,734 [3    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:31:25,747 [3    ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:31:25,772 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.UsersController.Index (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:31:25,812 [31   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Users/Index.cshtml.
+WARN  2017-11-13 21:31:25,817 [31   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'Voss'!
+INFO  2017-11-13 21:31:25,857 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.UsersController.Index (Abp.Voss.Web.Mvc) in 111.6133ms
+INFO  2017-11-13 21:31:25,942 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 149.0015ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:31:26,012 [31   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:31:26,044 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:31:26,049 [31   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:31:26,057 [31   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:31:26,062 [31   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:31:26,117 [24   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:31:26,127 [31   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 12.0099ms
+INFO  2017-11-13 21:31:26,212 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:31:26,249 [31   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 214.9532ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:31:26,284 [24   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:31:26,309 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 168.6528ms
+INFO  2017-11-13 21:31:26,324 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 316.4162ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:32:29,415 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Users  
+INFO  2017-11-13 21:32:29,433 [18   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:32:29,443 [18   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:32:29,470 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.UsersController.Index (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:32:29,530 [31   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Users/Index.cshtml.
+WARN  2017-11-13 21:32:29,535 [31   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'Voss'!
+INFO  2017-11-13 21:32:29,693 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.UsersController.Index (Abp.Voss.Web.Mvc) in 134.798ms
+INFO  2017-11-13 21:32:29,733 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 314.8351ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:32:29,990 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:32:30,058 [36   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:32:30,085 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:32:30,090 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:32:30,108 [34   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:32:30,123 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:32:30,168 [34   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:32:30,193 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 59.5189ms
+INFO  2017-11-13 21:32:30,210 [36   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:32:30,308 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 325.7932ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:32:30,315 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 149.6821ms
+INFO  2017-11-13 21:32:30,320 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 461.143ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:32:32,290 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Roles  
+INFO  2017-11-13 21:32:32,307 [18   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:32:32,317 [18   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:32:32,325 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.RolesController.Index (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:32:32,360 [31   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Roles/Index.cshtml.
+INFO  2017-11-13 21:32:32,397 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.RolesController.Index (Abp.Voss.Web.Mvc) in 80.6692ms
+INFO  2017-11-13 21:32:32,467 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 114.3665ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:32:32,515 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:32:32,572 [31   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:32:32,575 [35   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:32:32,585 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:32:32,612 [35   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:32:32,622 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 34.6543ms
+INFO  2017-11-13 21:32:32,635 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 178.1598ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:32:32,667 [31   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:32:32,680 [31   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:32:32,722 [31   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:32:32,750 [31   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 53.7894ms
+INFO  2017-11-13 21:32:32,755 [31   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 258.905ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:32:34,354 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Users  
+INFO  2017-11-13 21:32:34,374 [34   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:32:34,384 [34   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:32:34,417 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.UsersController.Index (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:32:34,482 [34   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Users/Index.cshtml.
+WARN  2017-11-13 21:32:34,489 [34   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'Voss'!
+INFO  2017-11-13 21:32:34,534 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.UsersController.Index (Abp.Voss.Web.Mvc) in 147.9755ms
+INFO  2017-11-13 21:32:34,587 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 195.3377ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:32:34,649 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:32:34,699 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:32:34,727 [35   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:32:34,757 [36   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:32:34,762 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:32:34,847 [35   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:32:34,854 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 114.8842ms
+INFO  2017-11-13 21:32:34,864 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:32:34,869 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 270.8477ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:32:34,919 [36   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:32:34,937 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 156.5189ms
+INFO  2017-11-13 21:32:34,947 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 283.4106ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:32:36,048 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Roles  
+INFO  2017-11-13 21:32:36,060 [28   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:32:36,090 [28   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:32:36,120 [28   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.RolesController.Index (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:32:36,195 [31   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Roles/Index.cshtml.
+INFO  2017-11-13 21:32:36,268 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.RolesController.Index (Abp.Voss.Web.Mvc) in 173.0424ms
+INFO  2017-11-13 21:32:36,453 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 234.5174ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:32:36,481 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:32:36,514 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:32:36,524 [36   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:32:36,678 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:32:36,766 [35   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:32:36,797 [36   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:32:36,873 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 272.7906ms
+INFO  2017-11-13 21:32:36,903 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:32:36,905 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 568.944ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:32:36,938 [35   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:32:36,959 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 169.4605ms
+INFO  2017-11-13 21:32:36,966 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 451.0001ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:32:38,085 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Users  
+INFO  2017-11-13 21:32:38,095 [18   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:32:38,103 [18   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:32:38,115 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.UsersController.Index (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:32:38,158 [35   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Users/Index.cshtml.
+WARN  2017-11-13 21:32:38,163 [35   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'Voss'!
+INFO  2017-11-13 21:32:38,208 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.UsersController.Index (Abp.Voss.Web.Mvc) in 97.6624ms
+INFO  2017-11-13 21:32:38,408 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:32:38,428 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 145.0427ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:32:38,448 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:32:38,483 [35   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:32:38,515 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:32:38,550 [36   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:32:38,580 [35   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:32:38,595 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 96.6508ms
+INFO  2017-11-13 21:32:38,608 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 354.1482ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:32:38,635 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:32:38,665 [36   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:32:38,678 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 109.5198ms
+INFO  2017-11-13 21:32:38,703 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 236.5371ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:32:39,932 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Tenants  
+INFO  2017-11-13 21:32:39,945 [34   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:32:39,950 [34   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:32:39,985 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.TenantsController.Index (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:32:40,015 [36   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Tenants/Index.cshtml.
+INFO  2017-11-13 21:32:40,060 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.TenantsController.Index (Abp.Voss.Web.Mvc) in 104.3884ms
+INFO  2017-11-13 21:32:40,157 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 136.4443ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:32:40,215 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:32:40,240 [32   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:32:40,272 [35   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:32:40,320 [32   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:32:40,342 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:32:40,352 [32   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:32:40,445 [32   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:32:40,477 [32   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 103.4855ms
+INFO  2017-11-13 21:32:40,480 [35   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:32:40,515 [32   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 302.3078ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:32:40,530 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 206.7208ms
+INFO  2017-11-13 21:32:40,537 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 362.3474ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:32:47,722 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Tenants/EditTenantModal?tenantId=1 application/html 0
+INFO  2017-11-13 21:32:47,747 [36   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:32:47,789 [36   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:32:47,809 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.TenantsController.EditTenantModal (Abp.Voss.Web.Mvc) with arguments (1) - ModelState is Valid
+INFO  2017-11-13 21:32:48,124 [32   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Tenants/_EditTenantModal.cshtml.
+INFO  2017-11-13 21:32:48,157 [32   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.TenantsController.EditTenantModal (Abp.Voss.Web.Mvc) in 388.6619ms
+INFO  2017-11-13 21:32:48,167 [32   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 448.2244ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:32:48,177 [38   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Tenants/_EditTenantModal.js?v=qNzEN1mBlEV9q1ugAuvdByMHkr53e57rWPeGu4qhgrk&_=1510626760204  
+INFO  2017-11-13 21:32:48,189 [38   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Tenants/_EditTenantModal.js'. Physical path: 'C:\Projects\VOSS\src\aspnet-core\src\Abp.Voss.Web.Mvc\wwwroot\view-resources\Views\Tenants\_EditTenantModal.js'
+INFO  2017-11-13 21:32:48,207 [40   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 24.152ms 200 application/javascript
+INFO  2017-11-13 21:32:59,845 [40   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Tenants  
+INFO  2017-11-13 21:32:59,865 [40   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:32:59,877 [40   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:32:59,895 [40   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.TenantsController.Index (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:32:59,927 [40   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Tenants/Index.cshtml.
+INFO  2017-11-13 21:32:59,962 [31   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.TenantsController.Index (Abp.Voss.Web.Mvc) in 90.3596ms
+INFO  2017-11-13 21:33:00,037 [31   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 134.5543ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:33:00,240 [39   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:33:00,247 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:33:00,297 [39   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:33:00,355 [39   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:33:00,422 [41   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:33:00,425 [39   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:33:00,455 [39   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 126.3223ms
+INFO  2017-11-13 21:33:00,510 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:33:00,515 [39   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 419.5588ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:33:00,547 [41   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:33:00,570 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 122.0397ms
+INFO  2017-11-13 21:33:00,577 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 475.4442ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:33:43,682 [32   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2017-11-13 21:33:43,697 [32   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:33:43,704 [32   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:33:43,712 [32   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.HomeController.Index (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:33:43,722 [34   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Home/Index.cshtml.
+INFO  2017-11-13 21:33:43,767 [42   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.HomeController.Index (Abp.Voss.Web.Mvc) in 59.5058ms
+INFO  2017-11-13 21:33:43,834 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 97.8897ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:33:43,999 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:33:44,084 [34   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:33:44,132 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:33:44,157 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:33:44,169 [34   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:33:44,189 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 63.5028ms
+INFO  2017-11-13 21:33:44,214 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 357.015ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:33:44,222 [42   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:33:44,249 [42   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:33:44,279 [42   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:33:44,314 [42   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 56.0975ms
+INFO  2017-11-13 21:33:44,324 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 299.0357ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:33:54,068 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpLocalization/ChangeCulture?cultureName=zh-CN&returnUrl=/  
+INFO  2017-11-13 21:33:54,101 [42   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:33:54,123 [42   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore) with arguments (zh-CN, /) - ModelState is Valid
+INFO  2017-11-13 21:33:54,231 [42   ] Core.Mvc.Internal.RedirectResultExecutor - Executing RedirectResult, redirecting to /.
+INFO  2017-11-13 21:33:54,238 [42   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore) in 122.1804ms
+INFO  2017-11-13 21:33:54,266 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 177.6733ms 302 
+INFO  2017-11-13 21:33:54,281 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2017-11-13 21:33:54,296 [44   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:33:54,303 [44   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:33:54,326 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.HomeController.Index (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:33:54,336 [43   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Home/Index.cshtml.
+INFO  2017-11-13 21:33:54,518 [32   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.HomeController.Index (Abp.Voss.Web.Mvc) in 127.7996ms
+INFO  2017-11-13 21:33:54,591 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:33:54,628 [32   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 273.1639ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:33:54,708 [43   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:33:54,746 [32   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:33:54,751 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:33:54,756 [43   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:33:54,783 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 46.9383ms
+INFO  2017-11-13 21:33:54,806 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 293.0531ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:33:54,813 [32   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:33:54,821 [32   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:33:54,873 [32   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:33:54,903 [32   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 60.6488ms
+INFO  2017-11-13 21:33:54,911 [32   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 260.9455ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:34:06,706 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpLocalization/ChangeCulture?cultureName=es-MX&returnUrl=/  
+INFO  2017-11-13 21:34:06,726 [43   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:34:06,749 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore) with arguments (es-MX, /) - ModelState is Valid
+INFO  2017-11-13 21:34:06,834 [43   ] Core.Mvc.Internal.RedirectResultExecutor - Executing RedirectResult, redirecting to /.
+INFO  2017-11-13 21:34:06,859 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore) in 107.4452ms
+INFO  2017-11-13 21:34:06,891 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 164.9769ms 302 
+INFO  2017-11-13 21:34:06,901 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2017-11-13 21:34:06,919 [44   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:34:06,929 [44   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:34:06,941 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.HomeController.Index (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:34:06,954 [32   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Home/Index.cshtml.
+INFO  2017-11-13 21:34:07,041 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.HomeController.Index (Abp.Voss.Web.Mvc) in 106.9652ms
+INFO  2017-11-13 21:34:07,099 [38   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 172.4397ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:34:07,176 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:34:07,226 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:34:07,231 [44   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:34:07,279 [41   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:34:07,284 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:34:07,351 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:34:07,374 [44   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:34:07,426 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 141.1203ms
+INFO  2017-11-13 21:34:07,434 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 331.3631ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:34:07,484 [41   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:34:07,496 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 202.2991ms
+INFO  2017-11-13 21:34:07,504 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 351.8607ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:35:14,191 [38   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpLocalization/ChangeCulture?cultureName=en&returnUrl=/  
+INFO  2017-11-13 21:35:14,226 [38   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:35:14,234 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore) with arguments (en, /) - ModelState is Valid
+INFO  2017-11-13 21:35:14,294 [38   ] Core.Mvc.Internal.RedirectResultExecutor - Executing RedirectResult, redirecting to /.
+INFO  2017-11-13 21:35:14,301 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore) in 65.3527ms
+INFO  2017-11-13 21:35:14,306 [38   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 120.9066ms 302 
+INFO  2017-11-13 21:35:14,321 [38   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2017-11-13 21:35:14,336 [38   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:35:14,346 [38   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:35:14,371 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.HomeController.Index (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:35:14,384 [42   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Home/Index.cshtml.
+INFO  2017-11-13 21:35:14,431 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.HomeController.Index (Abp.Voss.Web.Mvc) in 82.832ms
+INFO  2017-11-13 21:35:14,549 [38   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 118.6334ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:35:14,599 [38   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:35:14,629 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:35:14,679 [44   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:35:14,701 [38   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:35:14,706 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:35:14,741 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:35:14,794 [44   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:35:14,831 [38   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:35:14,846 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 128.2451ms
+INFO  2017-11-13 21:35:14,864 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 116.1067ms
+INFO  2017-11-13 21:35:14,869 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 266.9946ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:35:14,876 [38   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 281.7081ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:37:29,382 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Users  
+INFO  2017-11-13 21:37:29,397 [42   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:37:29,407 [42   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:37:29,417 [42   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.UsersController.Index (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:37:29,489 [42   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Users/Index.cshtml.
+WARN  2017-11-13 21:37:29,494 [42   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'Voss'!
+INFO  2017-11-13 21:37:29,532 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.UsersController.Index (Abp.Voss.Web.Mvc) in 123.2561ms
+INFO  2017-11-13 21:37:29,544 [38   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 158.4446ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:37:29,619 [38   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:37:29,659 [38   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:37:29,689 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:37:29,727 [39   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:37:29,777 [38   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:37:29,812 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 115.6444ms
+INFO  2017-11-13 21:37:29,894 [39   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:37:29,927 [38   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 213.1362ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:37:29,992 [39   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:37:30,022 [39   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:37:30,049 [39   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 126.9647ms
+INFO  2017-11-13 21:37:30,062 [39   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 365.1699ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:37:33,758 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/Logout  
+INFO  2017-11-13 21:37:33,768 [44   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:37:33,788 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.AccountController.Logout (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:37:33,823 [44   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed out.
+INFO  2017-11-13 21:37:33,828 [44   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.External signed out.
+INFO  2017-11-13 21:37:33,836 [44   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.TwoFactorUserId signed out.
+INFO  2017-11-13 21:37:33,858 [38   ] ft.AspNetCore.Mvc.RedirectToActionResult - Executing RedirectResult, redirecting to /Account/Login.
+INFO  2017-11-13 21:37:33,866 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.AccountController.Logout (Abp.Voss.Web.Mvc) in 80.8813ms
+INFO  2017-11-13 21:37:33,893 [38   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 119.9031ms 302 
+INFO  2017-11-13 21:37:33,921 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login  
+INFO  2017-11-13 21:37:33,936 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.AccountController.Login (Abp.Voss.Web.Mvc) with arguments (, , ) - ModelState is Valid
+INFO  2017-11-13 21:37:33,953 [42   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Account/Login.cshtml.
+INFO  2017-11-13 21:37:33,976 [42   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.AccountController.Login (Abp.Voss.Web.Mvc) in 39.4271ms
+INFO  2017-11-13 21:37:34,006 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 101.5951ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:37:34,203 [38   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:37:34,233 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:37:34,276 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:37:34,281 [39   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=636462058539661080  
+INFO  2017-11-13 21:37:34,298 [38   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:37:34,313 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 66.6499ms
+INFO  2017-11-13 21:37:34,378 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:37:34,418 [39   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'C:\Projects\VOSS\src\aspnet-core\src\Abp.Voss.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2017-11-13 21:37:34,421 [38   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 301.2461ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:37:34,438 [36   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:37:34,451 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 198.1577ms
+INFO  2017-11-13 21:37:34,486 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 431.4055ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:37:34,498 [40   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 336.57ms 200 application/javascript
+INFO  2017-11-13 21:37:49,261 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/TenantChangeModal application/html 0
+INFO  2017-11-13 21:37:49,296 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.AccountController.TenantChangeModal (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:37:49,778 [40   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Shared/Components/TenantChange/_ChangeModal.cshtml.
+INFO  2017-11-13 21:37:49,816 [40   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.AccountController.TenantChangeModal (Abp.Voss.Web.Mvc) in 526.858ms
+INFO  2017-11-13 21:37:49,852 [40   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 568.1805ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:37:49,872 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/_ChangeModal.js?v=dOsmsfe9dP3khJeEHUuCKT_DjKmVgCtFha0Oiy2cmk4&_=1510627054260  
+INFO  2017-11-13 21:37:49,894 [30   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/_ChangeModal.js'. Physical path: 'C:\Projects\VOSS\src\aspnet-core\src\Abp.Voss.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\_ChangeModal.js'
+INFO  2017-11-13 21:37:49,904 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 74.1922ms 200 application/javascript
+INFO  2017-11-13 21:38:02,444 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/TenantChangeModal application/html 0
+INFO  2017-11-13 21:38:02,492 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.AccountController.TenantChangeModal (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:38:02,554 [33   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Shared/Components/TenantChange/_ChangeModal.cshtml.
+INFO  2017-11-13 21:38:02,582 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.AccountController.TenantChangeModal (Abp.Voss.Web.Mvc) in 103.7025ms
+INFO  2017-11-13 21:38:02,619 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 225.4727ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:38:02,637 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/_ChangeModal.js?v=dOsmsfe9dP3khJeEHUuCKT_DjKmVgCtFha0Oiy2cmk4&_=1510627054261  
+INFO  2017-11-13 21:38:02,644 [29   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/_ChangeModal.js'. Physical path: 'C:\Projects\VOSS\src\aspnet-core\src\Abp.Voss.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\_ChangeModal.js'
+INFO  2017-11-13 21:38:02,664 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 35.8567ms 200 application/javascript
+INFO  2017-11-13 21:38:06,250 [39   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/Account/IsTenantAvailable application/json 22
+INFO  2017-11-13 21:38:06,400 [39   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Authorization.Accounts.AccountAppService.IsTenantAvailable (Abp.Voss.Application) with arguments (Abp.Voss.Authorization.Accounts.Dto.IsTenantAvailableInput) - ModelState is Valid
+INFO  2017-11-13 21:38:06,435 [30   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:38:06,447 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Authorization.Accounts.AccountAppService.IsTenantAvailable (Abp.Voss.Application) in 178.2214ms
+INFO  2017-11-13 21:38:06,455 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 216.9917ms 200 application/json; charset=utf-8
+INFO  2017-11-13 21:40:00,555 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 257
+INFO  2017-11-13 21:40:00,591 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.AccountController.Login (Abp.Voss.Web.Mvc) with arguments (Abp.Voss.Web.Models.Account.LoginViewModel, /, ) - ModelState is Valid
+WARN  2017-11-13 21:40:00,671 [3    ] icrosoft.AspNetCore.Identity.UserManager - Invalid password for user 1.
+WARN  2017-11-13 21:40:00,902 [28   ] Mvc.ExceptionHandling.AbpExceptionFilter - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at Abp.Voss.Web.Controllers.AccountController.<GetLoginResultAsync>d__15.MoveNext() in C:\Projects\VOSS\src\aspnet-core\src\Abp.Voss.Web.Mvc\Controllers\AccountController.cs:line 126
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Voss.Web.Controllers.AccountController.<Login>d__13.MoveNext() in C:\Projects\VOSS\src\aspnet-core\src\Abp.Voss.Web.Mvc\Controllers\AccountController.cs:line 102
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:line 120
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+INFO  2017-11-13 21:40:00,917 [28   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:40:00,964 [28   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.AccountController.Login (Abp.Voss.Web.Mvc) in 367.8386ms
+INFO  2017-11-13 21:40:01,005 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 419.3237ms 500 application/json; charset=utf-8
+INFO  2017-11-13 21:40:08,523 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 256
+INFO  2017-11-13 21:40:08,538 [42   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.AccountController.Login (Abp.Voss.Web.Mvc) with arguments (Abp.Voss.Web.Models.Account.LoginViewModel, /, ) - ModelState is Valid
+INFO  2017-11-13 21:40:08,634 [39   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2017-11-13 21:40:08,666 [28   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2017-11-13 21:40:08,697 [28   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.AccountController.Login (Abp.Voss.Web.Mvc) in 131.8491ms
+INFO  2017-11-13 21:40:08,720 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 195.4209ms 200 application/json; charset=utf-8
+INFO  2017-11-13 21:40:08,740 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2017-11-13 21:40:08,750 [28   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:40:08,782 [28   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:40:08,787 [28   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.HomeController.Index (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:40:08,797 [30   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Home/Index.cshtml.
+INFO  2017-11-13 21:40:08,835 [42   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.HomeController.Index (Abp.Voss.Web.Mvc) in 71.5379ms
+INFO  2017-11-13 21:40:08,902 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 111.1235ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:40:09,020 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:40:09,027 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:40:09,040 [28   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:40:09,085 [42   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:40:09,110 [28   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:40:09,115 [42   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:40:09,120 [42   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:40:09,172 [42   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 35.5942ms
+INFO  2017-11-13 21:40:09,220 [28   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:40:09,222 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 254.9416ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:40:09,297 [28   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 181.2834ms
+INFO  2017-11-13 21:40:09,307 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 331.5486ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:40:15,639 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Tenants  
+INFO  2017-11-13 21:40:15,656 [30   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:40:15,671 [30   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:40:15,691 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.TenantsController.Index (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:40:15,726 [10   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Tenants/Index.cshtml.
+INFO  2017-11-13 21:40:15,766 [39   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.TenantsController.Index (Abp.Voss.Web.Mvc) in 101.4318ms
+INFO  2017-11-13 21:40:15,844 [39   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 155.2168ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:40:15,951 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:40:15,959 [39   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:40:15,986 [10   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:40:15,994 [39   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:40:16,001 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:40:16,031 [39   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:40:16,034 [10   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:40:16,041 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 42.9852ms
+INFO  2017-11-13 21:40:16,051 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 183.2551ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:40:16,134 [39   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:40:16,184 [39   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 134.8132ms
+INFO  2017-11-13 21:40:16,216 [39   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 271.5549ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:40:17,812 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Users  
+INFO  2017-11-13 21:40:17,857 [42   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:40:17,872 [42   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:40:17,882 [42   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.UsersController.Index (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:40:17,940 [42   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Users/Index.cshtml.
+WARN  2017-11-13 21:40:17,947 [42   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'Voss'!
+INFO  2017-11-13 21:40:18,130 [42   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.UsersController.Index (Abp.Voss.Web.Mvc) in 141.4034ms
+INFO  2017-11-13 21:40:18,305 [39   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:40:18,432 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 348.4503ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:40:18,467 [39   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:40:18,540 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:40:18,545 [39   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:40:18,547 [39   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:40:18,555 [39   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 76.9614ms
+INFO  2017-11-13 21:40:18,587 [39   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 427.4212ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:40:18,612 [42   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:40:18,622 [42   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:40:18,652 [42   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:40:18,672 [42   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 37.8157ms
+INFO  2017-11-13 21:40:18,680 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 178.5381ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:42:31,064 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Users  
+INFO  2017-11-13 21:42:31,076 [28   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:42:31,109 [28   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:42:31,116 [28   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.UsersController.Index (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:42:31,171 [39   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Users/Index.cshtml.
+WARN  2017-11-13 21:42:31,176 [39   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'Voss'!
+INFO  2017-11-13 21:42:31,221 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.UsersController.Index (Abp.Voss.Web.Mvc) in 133.4019ms
+INFO  2017-11-13 21:42:31,299 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 170.7385ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:42:31,434 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:42:31,511 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:42:31,541 [10   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:42:31,561 [25   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:42:31,574 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:42:31,581 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:42:31,629 [10   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:42:31,679 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 79.5447ms
+INFO  2017-11-13 21:42:31,696 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 373.6743ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:42:31,736 [25   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:42:31,756 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 174.5874ms
+INFO  2017-11-13 21:42:31,764 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 413.0929ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:42:33,423 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Roles  
+INFO  2017-11-13 21:42:33,438 [10   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:42:33,451 [10   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:42:33,478 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.RolesController.Index (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:42:33,518 [18   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Roles/Index.cshtml.
+INFO  2017-11-13 21:42:33,573 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.RolesController.Index (Abp.Voss.Web.Mvc) in 117.3055ms
+INFO  2017-11-13 21:42:33,803 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:42:33,856 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 158.9734ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:42:33,928 [10   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:42:34,036 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:42:34,043 [10   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:42:34,051 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 103.6721ms
+INFO  2017-11-13 21:42:34,061 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 421.7081ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:42:34,063 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:42:34,101 [45   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:42:34,113 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:42:34,148 [45   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:42:34,178 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 47.5459ms
+INFO  2017-11-13 21:42:34,186 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 200.6348ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:42:40,285 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Users  
+INFO  2017-11-13 21:42:40,300 [18   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:42:40,307 [18   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:42:40,317 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.UsersController.Index (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:42:40,357 [28   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Users/Index.cshtml.
+WARN  2017-11-13 21:42:40,365 [28   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'Voss'!
+INFO  2017-11-13 21:42:40,405 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.UsersController.Index (Abp.Voss.Web.Mvc) in 94.0949ms
+INFO  2017-11-13 21:42:40,502 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 134.0148ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:42:40,547 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:42:40,562 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:42:40,570 [10   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:42:40,595 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:42:40,687 [30   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:42:40,692 [10   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:42:40,757 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 124.2698ms
+INFO  2017-11-13 21:42:40,770 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:42:40,777 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 285.2083ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:42:40,825 [30   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:42:40,880 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 133.3071ms
+INFO  2017-11-13 21:42:40,885 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 354.3772ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:42:42,075 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Roles  
+INFO  2017-11-13 21:42:42,087 [18   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:42:42,095 [18   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:42:42,102 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.RolesController.Index (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:42:42,150 [18   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Roles/Index.cshtml.
+INFO  2017-11-13 21:42:42,197 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.RolesController.Index (Abp.Voss.Web.Mvc) in 100.4086ms
+INFO  2017-11-13 21:42:42,235 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 130.5261ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:42:42,267 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:42:42,370 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:42:42,397 [18   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:42:42,402 [45   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:42:42,412 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:42:42,435 [18   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:42:42,445 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 31.5414ms
+INFO  2017-11-13 21:42:42,472 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:42:42,492 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 209.54ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:42:42,537 [45   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:42:42,552 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 135.006ms
+INFO  2017-11-13 21:42:42,575 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 259.1946ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:42:44,133 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/About  
+INFO  2017-11-13 21:42:44,146 [10   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:42:44,156 [10   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:42:44,188 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.AboutController.Index (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:42:44,251 [45   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/About/Index.cshtml.
+INFO  2017-11-13 21:42:44,388 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.AboutController.Index (Abp.Voss.Web.Mvc) in 141.1954ms
+INFO  2017-11-13 21:42:44,451 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 267.6371ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:42:44,516 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:42:44,533 [39   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:42:44,571 [18   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:42:44,586 [39   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:42:44,631 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:42:44,643 [39   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:42:44,651 [39   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:42:44,708 [39   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 65.8589ms
+INFO  2017-11-13 21:42:44,761 [39   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 330.6329ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:42:44,768 [18   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:42:44,776 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 194.7284ms
+INFO  2017-11-13 21:42:44,783 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 285.4188ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:42:46,161 [39   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Roles  
+INFO  2017-11-13 21:42:46,171 [39   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:42:46,178 [39   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:42:46,206 [39   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.RolesController.Index (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:42:46,246 [39   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Roles/Index.cshtml.
+INFO  2017-11-13 21:42:46,291 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.RolesController.Index (Abp.Voss.Web.Mvc) in 110.1795ms
+INFO  2017-11-13 21:42:46,338 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 137.2709ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:42:46,373 [39   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:42:46,411 [39   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:42:46,418 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:42:46,453 [39   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:42:46,463 [39   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:42:46,473 [39   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 46.2319ms
+INFO  2017-11-13 21:42:46,483 [39   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 135.89ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:42:46,496 [18   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:42:46,503 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:42:46,531 [18   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:42:46,543 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 34.096ms
+INFO  2017-11-13 21:42:46,553 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 158.5234ms 200 application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:42:47,534 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Users  
+INFO  2017-11-13 21:42:47,544 [45   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:42:47,551 [45   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-11-13 21:42:47,559 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.Voss.Web.Controllers.UsersController.Index (Abp.Voss.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-13 21:42:47,596 [39   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Users/Index.cshtml.
+WARN  2017-11-13 21:42:47,601 [39   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'Voss'!
+INFO  2017-11-13 21:42:47,704 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.Voss.Web.Controllers.UsersController.Index (Abp.Voss.Web.Mvc) in 87.0978ms
+INFO  2017-11-13 21:42:47,729 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 183.5845ms 200 text/html; charset=utf-8
+INFO  2017-11-13 21:42:47,791 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636462053121056062  
+INFO  2017-11-13 21:42:47,796 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636462053121056062  
+INFO  2017-11-13 21:42:47,841 [10   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:42:47,856 [45   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2017-11-13 21:42:47,879 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-11-13 21:42:47,886 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-11-13 21:42:47,899 [45   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-11-13 21:42:47,909 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 40.134ms
+INFO  2017-11-13 21:42:47,916 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 168.8653ms 200 text/plain; charset=utf-8
+INFO  2017-11-13 21:42:47,936 [10   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-11-13 21:42:47,969 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 92.6057ms
+INFO  2017-11-13 21:42:47,976 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 218.2516ms 200 application/x-javascript; charset=utf-8
