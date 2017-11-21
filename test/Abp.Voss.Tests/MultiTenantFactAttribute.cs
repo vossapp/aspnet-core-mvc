@@ -6,7 +6,7 @@ namespace Abp.Voss.Tests
     {
         public MultiTenantFactAttribute()
         {
-            if (!AbpProjectNameConsts.MultiTenancyEnabled)
+            if (!VossConsts.MultiTenancyEnabled)
             {
                 Skip = "MultiTenancy is disabled.";
             }

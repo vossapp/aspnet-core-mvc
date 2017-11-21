@@ -15,13 +15,13 @@ using Abp.Voss.Tests.DependencyInjection;
 namespace Abp.Voss.Tests
 {
     [DependsOn(
-        typeof(AbpProjectNameApplicationModule),
-        typeof(AbpProjectNameEntityFrameworkModule),
+        typeof(VossApplicationModule),
+        typeof(VossEntityFrameworkModule),
         typeof(AbpTestBaseModule)
         )]
     public class AbpProjectNameTestModule : AbpModule
     {
-        public AbpProjectNameTestModule(AbpProjectNameEntityFrameworkModule abpProjectNameEntityFrameworkModule)
+        public AbpProjectNameTestModule(VossEntityFrameworkModule abpProjectNameEntityFrameworkModule)
         {
             abpProjectNameEntityFrameworkModule.SkipDbContextRegistration = true;
         }
@@ -39,7 +39,7 @@ namespace Abp.Voss.Tests
             // Use database for language management
             Configuration.Modules.Zero().LanguageManagement.EnableDbLocalization();
 
-            RegisterFakeService<AbpZeroDbMigrator<AbpProjectNameDbContext>>();
+            RegisterFakeService<AbpZeroDbMigrator<VossDbContext>>();
 
             Configuration.ReplaceService<IEmailSender, NullEmailSender>(DependencyLifeStyle.Transient);
         }
